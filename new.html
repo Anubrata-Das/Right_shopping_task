@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="unpkg.com_swiper@8.0.0_swiper-bundle.min.css">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link href="
+https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
+" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <div class="total-container">
+
+        <div class="header-container">
+
+            <div class="header-txt">
+                <div class="left">
+                    Flowers To India
+                </div>
+                <div class="middle">
+                    Upcoming Event :
+                    <a >Rakhi To India</a>
+                    <a>Ganesh Chaturthi</a>
+                </div>
+                <div class="right">
+                    <span>Same day</span>
+                    <!-- <span>Same day</span> -->
+                </div>
+            </div>
+
+            <div class="header">
+                <div class="dropdowntopheader">
+                    <span>Services <img src="siteimages/menu-downArrow2.webp" class="headdropicon" alt="Services"
+                            width="9" height="5"></span>
+                    <div class="dropdown-contenttopheader">
+                        <a href="" title="Login">
+                            <p>Login</p>
+                        </a>
+                        <!-- <a href="" title="Order Status">
+                            <p>Order Status</p>
+                        </a> -->
+                        <a href="" title="Contact Us">
+                            <p>Contact</p>
+                        </a>
+                        <a href="" title="Shopping Cart">
+                            <p>Shopping Cart</p>
+                        </a>
+                        <!-- <a href="" title="Phone No">
+                            <p style="color:#552f7a;">&#9742 +91 9230765100</p>
+                        </a> -->
+                    </div>
+                </div>
+
+                <div class="left-col">
+                    <a href="" title="Gift Portal India" style="display: flex;justify-content: center;align-items: center;">
+                        <img src="PRETTY PETALS/logomain2.webp" width="280" height="90" border="0" alt="PrettyPetals.in"
+                            style="cursor:pointer;"></a><i>
+                        Local Florist Shops in 650+ cities in India
+                    </i>
+
+                    <!-- for mobile -->
+                    <div id="popdiv-bg2">
+                        <div id="div-to-toggle2">
+                            <button id="close-btn2">X</button>
+                            <div class="popdiv-bbody2">
+                                <div class="locationname">Choose Your Delivery Location</div>
+                                <div class="pin-row">
+                                    <div class="pin-col pin-col-12">
+                                        <div class="pin-row">
+                                            <input type="text" name="t4" id="t4" class="input-pin newpin-box"
+                                                placeholder="Enter Pincode" value=""><i class="searchclear1">?</i></div>
+                                    </div>
+                                    <div class="pin-col pin-col-12">
+                                        <div id="add_to_me1" class="new-pin-autocomplete"></div>
+                                        <div id="review2"></div>
+                                    </div>
+
+
+                                    <div class="pin-col pin-col-12">
+                                        <br><br><button class="newpin-submit2 popin-close2" id="hide_div"
+                                            onClick="OnCheckAvailability1();" title="Continue">Continue</button>
+                                        <button class="newpin-submit2 popin-close2" id="show_div"
+                                            onClick="onSubmitClick1();" title="Continue">Continue</button>
+                                    </div>
+                                    <div class="top-cities">
+                                        <p>Top Cities</p>
+                                        <ul>
+                                            <li><a href="https://www.prettypetals.in/ahmedabad/florist.asp"
+                                                    title="Ahmedabad">Ahmedabad</a></li>
+                                            <li><a href="https://www.prettypetals.in/bangalore/florist.asp"
+                                                    title="Bangalore">Bangalore</a></li>
+                                            <li><a href="https://www.prettypetals.in/chennai/florist.asp"
+                                                    title="Chennai">Chennai</a></li>
+                                            <li><a href="https://www.prettypetals.in/delhi/florist.asp"
+                                                    title="Delhi">Delhi</a></li>
+
+                                            <li><a href="https://www.prettypetals.in/hyderabad/florist.asp"
+                                                    title="Hyderabad">Hyderabad</a></li>
+                                            <li><a href="https://www.prettypetals.in/chennai/florist.asp"
+                                                    title="Chennai">Chennai</a></li>
+                                            <li><a href="https://www.prettypetals.in/kolkata/florist.asp"
+                                                    title="Kolkata">Kolkata</a></li>
+                                            <li><a href="https://www.prettypetals.in/mumbai/florist.asp"
+                                                    title="Mumbai">Mumbai</a></li>
+
+                                            <li><a href="https://www.prettypetals.in/pune/florist.asp"
+                                                    title="Pune">Pune</a></li>
+                                            <li><a href="https://www.prettypetals.in/gurugram/florist.asp"
+                                                    title="Gurugram">Gurugram</a></li>
+                                            <li><a href="https://www.prettypetals.in/guwahati/florist.asp"
+                                                    title="Guwahati">Guwahati</a></li>
+                                            <li><a href="https://www.prettypetals.in/coimbatore/florist.asp"
+                                                    title="Coimbatore">Coimbatore</a></li>
+
+                                            <li><a href="https://www.prettypetals.in/salem/florist.asp"
+                                                    title="Salem">Salem</a></li>
+                                            <li><a href="https://www.prettypetals.in/amritsar/florist.asp"
+                                                    title="Amritsar">Amritsar</a></li>
+                                            <li><a href="https://www.prettypetals.in/jaipur/florist.asp"
+                                                    title="Jaipur">Jaipur</a></li>
+                                            <li><a href="https://www.prettypetals.in/chandigarh/florist.asp"
+                                                    title="Chandigarh">Chandigarh</a></li>
+                                        </ul>
+
+                                        <div class="all-location"><a
+                                                href="https://www.prettypetals.in/delivery_locations.asp"
+                                                title="See all Delivery Locations">See all Delivery Locations</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="middle-col header-middle-txt">
+
+                    <div class="headermiddletext">
+                        <button class="mobile-menu-container2" onclick="toggleText14()"><img
+                                src="https://www.prettypetals.in/siteimages/menu-open-icon2.webp" alt="Menu" width="30"
+                                height="30"></button>
+
+                        <div class="searchheaderrow">
+                            <div class="header-search-area">
+                                <input type="text" id="cat" class="headerinput2"
+                                    placeholder="Category Suggestion Like Flowers, Cakes...">
+                                <button type="submit" class="serbtnnew" title="Search"><span class="icon-search"><img
+                                            src="PRETTY PETALS/icon.svg" alt="Search" 
+                                            ></span></button>
+                            </div>
+
+                            <button id="click-to-show2" class="headerbtn22" "
+                                title=" Pick Delivery City">Pick Delivery City <i
+                                    class="fas fa-location-dot"></i></button>
+
+                        </div>
+
+                        <div class="lvsearch" id="livesearch2"></div>
+                    </div>
+                </div>
+
+                <div class="right-col text-right">
+                    <div class="header-icon-menu">
+                        <div class="header-con-blog">
+
+                            <div class="header-blog" title="Login">
+                                <a href="" title="Login"><i class="fa-solid fa-user-lock"></i>
+                                    <!-- <div class="header-image"><img
+                                            src="https://www.prettypetals.in/siteimages/Sample_User_Icon.webp"
+                                            alt="Login" width="50" height="50" border="0"></div> -->
+                                    <div class="header-name">Login</div>
+                                </a>
+                            </div>
+                            <div class="header-blog" title="Contact">
+                                <a href="" title="Contact"><i class="fa-solid fa-phone"></i>
+                                    <!-- <div class="header-image"><img
+                                            src="https://www.prettypetals.in/siteimages/call-icon.webp" alt="Contact"
+                                            width="50" height="50" border="0"></div> -->
+                                    <div class="header-name">Contact</div>
+                                </a>
+                            </div>
+                            <!-- <div class="header-blog" title="Same Day">
+                                <a href="" title="Same Day">
+                                    <div class="header-image"><img
+                                            src="https://www.prettypetals.in/siteimages/sameday-icon.webp"
+                                            alt="Same Day" width="50" height="50" border="0"></div>
+                                    <div class="header-name">Same Day</div>
+                                </a>
+                            </div> -->
+                            <div class="header-blog" title="Cart">
+                                <a href="" title="Cart">
+                                    <div class="header-image"><i class="fa-solid fa-cart-shopping"></i>
+                                        <!-- <img
+                                            src="https://www.prettypetals.in/siteimages/cart-icon.webp" alt="Cart"
+                                            width="50" height="50" border="0"></div> -->
+                                        <div class="header-name">Cart</div>
+                                </a>
+                            </div>
+                            <!-- <div class="header-blog" title="Currency">
+                                <div class="header-image"><img
+                                        src="https://www.prettypetals.in/siteimages/wallet-icon.webp" alt="Currency"
+                                        width="50" height="50" border="0"></div>
+                                <div class="header-name">Currency &#709;</div>
+                            </div>
+                            <div class="tooltip-content">
+                                <select size="3">
+                                    <option class="noselect" value="Select">-- Select --</option>
+                                    <option class="inr-cur" style="cursor:pointer" value="INR">INR</option>
+                                    <option class="usd-cur" style="cursor:pointer" value="USD">USD</option>
+                                </select>
+                            </div> -->
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar" id="Myid14">
+        <a href="" title="Home" class="mobile-menu-colour" style="font-weight:600;">Home</a>
+
+        <div class="dropdown2 fl">
+            <button class="dropbtn2 no-link" style="text-transform: none;cursor:pointer;font-weight:600;">Flowers
+                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+                    width="9px" height="5px">
+            </button>
+            <div class="dropdown-content5" id="Myid10">
+                <div class="row4">
+                    <div class="column4">
+                        <p>Flower Name</p>
+                        <a title="Lily">Rose</a>
+                        <a title="Lily">Lily</a>
+                        <a title="Carnation">Carnation</a>
+                        <a title="Gerbera">Gerbera</a>
+                        <a title="Orchids">Orchids</a>
+                        <a title="Tube Rose">Tube Rose</a>
+                        <a title="Mixed">Mixed Flowers</a>
+
+                    </div>
+                    <div class="column4">
+                        <p>Combos</p>
+                        <a href="" title="Flowers With Cake">with
+                            Cake</a>
+                        <a href="" title="Flowers With Sweets">with
+                            Sweets</a>
+                        <a href="" title="Flowers With Chocolates">with Chocolates</a>
+                        <a href="" title="Flowers With Teddy">with
+                            Teddy</a>
+                        <a href="" title="Flowers Wtih Dry Fruits">with Dry Fruits</a>
+                        <a href="" title="Flowers Wtih Ballons">with
+                            Ballons</a>
+
+                    </div>
+
+
+                    <div class="column4">
+                        <p>Events</p>
+                        <a href="" title="Valentine's Day">Valentine's
+                            Day</a>
+                        <a title="Mother's Day">Mother's Day</a>
+                        <a title="Father's Day">Father's Day</a>
+                        <a title="Women's Day">Women's Day</a>
+                        <a>Sympathy</a>
+                        <a>Chritmas</a>
+
+                        <!--<a href="https://www.prettypetals.in/get-well-soon-flowers.asp" title="Get Well Soon">Get Well Soon</a>!-->
+                    </div>
+
+                    <div class="column4">
+                        <p>Colour</p>
+                        <a>Red</a>
+                        <a>Pink</a>
+                        <a>Yellow</a>
+
+
+                        <p>&nbsp;</p>
+
+                        <p>Shape/Type</p>
+                        <a>Heart Shape Flowers Wreath</a>
+                        <a>Flowers
+                            Bouquet</a>
+                        <a>Flowers In
+                            Vase</a>
+
+                    </div>
+
+
+                    <div class="column4">
+                        <p>Delivery Time</p>
+                        <a>Same Day</a>
+                        <a>Next Day</a>
+                        <p>&nbsp;</p>
+                        <p>Price</p>
+                        <a title="Under 499">Under 499</a>
+                        <a title="Under 999">Under 999</a>
+                        <a title="Under 1499">Under 1499</a>
+
+                    </div>
+                    <div class="column4">
+                        <p>Nos.</p>
+                        <a>Single Flower</a>
+                        <a>10 Flowers</a>
+                        <a>12 Flowers</a>
+                        <a>15 Flowers</a>
+                        <a>18 Flowers</a>
+                        <a>24 Flowers</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="dropdown2 mobile-menu-colour gifts">
+            <button class="dropbtn2 no-link" style="text-transform: none;cursor:pointer;font-weight:600;"
+                title="Gifts">Gifts
+                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+                    width="9px" height="5px">
+            </button>
+            <div class="dropdown-content22" id="Myid11">
+
+                <div class="row4">
+                    <div class="column6">
+
+                        <p>By Category</p>
+
+                        <a class="hover-me2">Cakes</a>
+
+                        <div class="sub-menu-3" id="Myid9" style="padding-left:15px;">
+                            <ul>
+                                <li><a style="color: #666;" title="Birthday Cake">Birthday Cake</a></li>
+                                <li><a style="color: #666;" title="Anniversery Cake">Anniversery Cake</a></li>
+                                <li><a style="color: #666;" title="Wedding Cake">Wedding Cake</a></li>
+
+                            </ul>
+                        </div>
+                        <a>Combo Gifts</a>
+                        <a>Chocolate Gifts</a>
+                        <a>Dry
+                            Fruits</a>
+
+                    </div>
+                    <div class="column6">
+                        <p>By Relation</p>
+                        <a>Him</a>
+                        <a title="Her">Her</a>
+                        <a>Kids</a>
+
+
+
+                    </div>
+                    <div class="column6">
+                        <p>By Relation</p>
+                        <a href="https://www.prettypetals.in/send-gifts-for-brother-online-to-india.asp"
+                            title="Brother">Brother</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown2">
+            <button class="dropbtn2 no-link" style="text-transform: none;font-weight:600;">Occasions
+                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+                    width="9px" height="5px">
+            </button>
+            <div class="dropdown-content44" id="Myid12">
+                <div class="row4">
+                    <div class="column44">
+                        <p>Top Searched</p>
+                        <a>Anniversary</a>
+                        <a>Anniversary</a>
+                        <a>Anniversary</a>
+                        <a>Anniversary</a>
+
+                    </div>
+                    <div class="column44">
+                        <p>Celebrations</p>
+                        <a>Baby Shower</a>
+                        <a>Baby Shower</a>
+                        <a>Baby Shower</a>
+                        <a>Baby Shower</a>
+
+                    </div>
+                    <div class="column44">
+                        <p>Emotions</p>
+                        <a class="extrared">All Purpose</a>
+                        <a class="extrared">All Purpose</a>
+                        <a class="extrared">All Purpose</a>
+                        <a class="extrared">All Purpose</a>
+
+
+                    </div>
+                    <div class="column44">
+                        <p>Indian Festivals</p>
+                        <a>Chhath Puja (10th Nov)</a>
+                        <a>Chhath Puja (10th Nov)</a>
+                        <a>Chhath Puja (10th Nov)</a>
+                        <a>Chhath Puja (10th Nov)</a>
+                        <a>Chhath Puja (10th Nov)</a>
+
+                    </div>
+                    <div class="column44">
+                        <p>Special Days</p>
+                        <a>Friendship Day (30th Jul)</a>
+                        <a>Friendship Day (30th Jul)</a>
+                        <a>Friendship Day (30th Jul)</a>
+                        <a>Friendship Day (30th Jul)</a>
+                        <a>Friendship Day (30th Jul)</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <a class="mobile-menu-colour" style="font-weight:600;">Same Day</a>
+        <a class="mobile-menu-colour" style="font-weight:600;">Same Day</a>
+        <a class="mobile-menu-colour" style="font-weight:600;">Same Day</a>
+
+
+
+        <div class="dropdown2 no-link">
+            <button class="dropbtn2" style="text-transform: none;font-weight:600;">Locations
+                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+                    width="9px" height="5px">
+            </button>
+            <div class="dropdown-content4" id="Myid13">
+
+                <div class="row4">
+                    <div class="column3">
+                        <a>Adilabad</a>
+                        <a>Agra</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+                        <a>Ahmedabad</a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <a class="mobile-menu-colour" style="font-weight:600;">Order Status</a>
+
+    </div>
+
+    <div class="container">
+
+        <!-- <button class="shop-button">Shop Now</button> -->
+    </div>
+
+    <div class="image-row">
+        <img class="image" src="PRETTY PETALS/CARD_!.jpg" alt="Image 1">
+        <img class="image" src="PRETTY PETALS/CARD_2.jpg" alt="Image 2">
+        <img class="image" src="PRETTY PETALS/CARD_3.jpg" alt="Image 3">
+        <img class="image" src="PRETTY PETALS/CARD_4.jpg" alt="Image 4">
+    </div>
+
+    <div class="best-seller-container">
+        <div class="best-seller-heading">FLOWER & CAKES</div>
+        <p>#Fresh Baked Cake with Bouquet; Over 1 million Delivery Done in India</p>
+        <div href="#" class="view-all-button">View All</div>
+    </div>
+    <!-- scrollable divs -->
+    <div class="wrapper">
+
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 53.png" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 71.png" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 95.jpg" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 91.jpg" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 83 (2).jpg" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+            <div class="discount-label">Best Seller</div>
+            <div class="product-name">A Perfect Pair</div>
+            <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+            <div class="new">
+                <div class="price">Rs 1140 /-</div>
+                <div class="star-ratings">4.9★</div>
+
+            </div>
+            <div class="new">
+                <div class="del">Earliest Delivery Today</div>
+                <div class="rev">98 reviews</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="second-container">
+        <div class="best-seller-container">
+            <div class="best-seller-heading">SEND FLOWERS TO INDIA</div>
+            <p>3 Hours Delivery & Free Shipping in India . Expert Florists at 500 cities India-wide</p>
+            <div href="#" class="view-all-button">View All</div>
+        </div>
+        <div class="wrapper">
+
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 53.png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 71.png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 95.jpg" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 91.jpg" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 83 (2).jpg" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="best-seller-container">
+        <div class="best-seller-heading">COMBOS</div>
+        <p>138789 Value for Money Gifts for your beloved ; Free Delivery in India</p>
+        <!-- <div href="#" class="view-all-button">View All</div> -->
+    </div>
+    <br>
+    <br>
+
+    <div class="circle-container">
+
+        <div class="lll">
+            <div class="circle-item">
+                <img src="PRETTY PETALS/image 104.jpg" alt="Image 1" class="circle-image">
+            </div>
+            <p>Flowers & Cakes</p>
+        </div>
+
+        <div class="lll">
+            <div class="circle-item">
+                <img src="PRETTY PETALS/image 68 (2).png" alt="Image 2" class="circle-image">
+            </div>
+            <p>Flowers & Chocolates</p>
+        </div>
+
+        <div class="lll">
+            <div class="circle-item">
+                <img src="PRETTY PETALS/image 25.png" alt="Image 3" class="circle-image">
+            </div>
+            <p>Flowers & Gifts</p>
+        </div>
+        <div class="lll">
+            <div class="circle-item">
+                <img src="PRETTY PETALS/image 100.jpg" alt="Image 4" class="circle-image">
+            </div>
+            <p>Flowers & Teddy</h>
+        </div>
+        <div class="lll">
+            <div class="circle-item">
+                <img src="PRETTY PETALS/image 83 (2).jpg" alt="Image 5" class="circle-image">
+            </div>
+            <p>Flowers & Sweets</p>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- city container  -->
+    <div class="city">
+        <div class="best-seller-container">
+            <div class="best-seller-heading">FLORAL GIFTS BY CITIES</div>
+            <p>Send Fresh Flowers Same day to 500 cities; Free Delivery across India</p>
+            <div href="#" class="view-all-button">View All</div>
+        </div>
+        <br>
+        <br>
+        <!-- heart image  -->
+        <div class="heart-container">
+            <div class="lll">
+                <div class="heart-item">
+                    <img src="PRETTY PETALS/image 23.png" alt="" srcset="" class="circle-image">
+                </div>
+                <p>Chennai</p>
+            </div>
+            <div class="lll">
+                <div class="heart-item">
+                    <img src="PRETTY PETALS/image 24.png" alt="" srcset="" class="circle-image">
+                </div>
+                <p>Hyderabad</p>
+            </div>
+            <div class="lll">
+                <div class="heart-item">
+                    <img src="PRETTY PETALS/image 25.png" alt="" srcset="" class="circle-image">
+                </div>
+                <p>Delhi</p>
+            </div>
+            <div class="lll">
+                <div class="heart-item">
+                    <img src="PRETTY PETALS/image 26.png" alt="" srcset="" class="circle-image">
+                </div>
+                <p>Mumbai</p>
+            </div>
+            <div class="lll">
+                <div class="heart-item">
+                    <img src="PRETTY PETALS/image 27.png" alt="" srcset="" class="circle-image">
+                </div>
+                <p>Kolkata</p>
+            </div>
+            <!-- <div class="lll">
+                <div class="heart-item">
+                    <img src="PRETTY PETALS/image 28.png" alt="" srcset="" class="circle-image">
+                </div>
+                <p>Bangalore</p>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- birthday best seller  -->
+    <div class="birthday">
+        <div class="best-seller-container">
+            <div class="best-seller-heading">BIRTHDAY BEST SELLERS</div>
+            <p>Gift Cakes & Flowers on Birthday; Free Delivery in 3 hours across India</p>
+            <div href="#" class="view-all-button">View All</div>
+        </div>
+
+        <div class="wrapper">
+
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 53.png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 71.png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 95.jpg" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 91.jpg" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 83 (2).jpg" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+                <div class="discount-label">Best Seller</div>
+                <div class="product-name">A Perfect Pair</div>
+                <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                <div class="new">
+                    <div class="price">Rs 1140 /-</div>
+                    <div class="star-ratings">4.9★</div>
+
+                </div>
+                <div class="new">
+                    <div class="del">Earliest Delivery Today</div>
+                    <div class="rev">98 reviews</div>
+
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+        <!-- relation -->
+        <div class="relation">
+            <div class="best-seller-container">
+                <div class="best-seller-heading">IMPORTANT RELATIONS</div>
+                <p>Top Floral Gift Ideas for all; Lowest Price in India</p>
+                <!-- <div href="#" class="view-all-button">View All</div> -->
+            </div>
+
+            <div class="circle-container">
+
+                <div class="lll">
+                    <div class="circle-item">
+                        <img src="PRETTY PETALS/image 57 (1).png" alt="Image 1" class="circle-image">
+                    </div>
+                    <p>HUSBAND</p>
+                </div>
+
+                <div class="lll">
+                    <div class="circle-item">
+                        <img src="PRETTY PETALS/image 57.png" alt="Image 2" class="circle-image">
+                    </div>
+                    <p>WIFE</p>
+                </div>
+
+                <div class="lll">
+                    <div class="circle-item">
+                        <img src="PRETTY PETALS/image 54 (2).png" alt="Image 3" class="circle-image">
+                    </div>
+                    <p>HIM</p>
+                </div>
+                <div class="lll">
+                    <div class="circle-item">
+                        <img src="PRETTY PETALS/image 100.jpg" alt="Image 4" class="circle-image">
+                    </div>
+                    <p>HER</h>
+                </div>
+                <div class="lll">
+                    <div class="circle-item">
+                        <img src="PRETTY PETALS/image 83 (2).jpg" alt="Image 5" class="circle-image">
+                    </div>
+                    <p>PARENTS</p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+        <!-- who we are  -->
+        <div class="wea">
+            <br>
+            <div class="best-seller-container">
+                <div class="best-seller-heading">WHO WE ARE</div>
+                <p><span style="color:rgb(54, 7, 116)">PrettyPetals.in</span> - The #1 E-commerce Store for Flowers to
+                    India</p>
+
+            </div>
+
+            <div class="gejano-container">
+                <div class="head">
+                    <h3>Sweet Surprise: Indulge in the Delight of Exquisite</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit et autem fugit, aspernatur vero, iure incidunt illum debitis nisi reprehenderit quas itaque placeat commodi eaque voluptas, aut sequi. Rerum, voluptatum?</p>
+            </div>
+
+        </div>
+
+        <!-- personalized gifts  -->
+        <div class="personalized">
+            <div class="best-seller-container">
+                <div class="best-seller-heading">PERSONALIZED FLORAL GIFTS</div>
+                <p>Mugs, Photo Cakes, Embossed Flowers & Personalized Gifts</p>
+                <div href="#" class="view-all-button">View All</div>
+            </div>
+
+            <div class="wrapper">
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 53.png" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 71.png" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 95.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 91.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 83 (2).jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- popular occasions  -->
+        <!-- <div class="image-row-occasion">
+        <img class="image" src="PRETTY PETALS/image 68 (2).png" alt="Image 1">
+        <img class="image" src="PRETTY PETALS/image 67 (3).png" alt="Image 2">
+        <img class="image" src="PRETTY PETALS/image 70 (1).png" alt="Image 3">
+        <img class="image" src="PRETTY PETALS/image 69 (1).png" alt="Image 4">
+    </div> -->
+        <br>
+        <div class="occasions">
+            <div class="best-seller-container">
+                <div class="best-seller-heading">POPULAR OCCASIONS</div>
+                <p>Send Fresh Flowers Online for Memories; Express Delivery India-Wide</p>
+                <!-- <div href="#" class="view-all-button">View All</div> -->
+            </div>
+            <br>
+            <div class="square-container">
+                <div class="ss">
+                    <div class="square-item">
+                        <img src="PRETTY PETALS/image 68 (2).png" alt="Image 1" class="square-image">
+                    </div>
+                    <div href="#" class="square-button"><button>BIRTHDAY</button></div>
+                </div>
+                <div class="ss">
+                    <div class="square-item">
+                        <img src="PRETTY PETALS/image 67 (3).png" alt="Image 1" class="square-image">
+                    </div>
+                    <div href="#" class="square-button"><button>ANNIVERSARY</button></div>
+                </div>
+                <div class="ss">
+                    <div class="square-item">
+                        <img src="PRETTY PETALS/image 70 (1).png" alt="Image 1" class="square-image">
+                    </div>
+                    <div href="#" class="square-button"><button>WEDDING</button></div>
+                </div>
+                <div class="ss">
+                    <div class="square-item">
+                        <img src="PRETTY PETALS/image 69 (1).png" alt="Image 1" class="square-image">
+                    </div>
+                    <div href="#" class="square-button"><button>THANK YOU</button></div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- anniversary  -->
+        <div class="anniversary">
+            <div class="best-seller-container">
+                <div class="best-seller-heading">ANNIVERSARY BEST SELLERS</div>
+                <p>Fresh Flower Bouquet for Anniversary ; Free Delivery India-wide</p>
+                <div href="#" class="view-all-button">View All</div>
+            </div>
+
+            <div class="wrapper">
+
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 68 (2).png" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 82 (2).jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 74.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 70.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 95.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 91.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 83 (2).jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 67 (1).png" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- plants  -->
+        <div class="plants">
+            <div class="best-seller-container">
+                <div class="best-seller-heading">PLANTS</div>
+                <p>Send a Gift of Live Plants; Deliver Eco Friendly Gifts in India Today</p>
+                <!-- <div href="#" class="view-all-button">View All</div> -->
+            </div>
+
+            <!-- <button class="pre-btn"><img src="PRETTY PETALS/left-arrow-2560.png" width="20" height="20" alt="" srcset=""></button>
+                <button class="nxt-btn"><img src="PRETTY PETALS/arrow-icon-1177.png"  width="20" height="20" alt="" srcset=""></button> -->
+
+            <div class="wrapper">
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 84 (1) (1).jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 80 (1) (1).jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 81 (1) (1).jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 77.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 78.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 83.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 79.jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <img class="product-image" src="PRETTY PETALS/image 82 (1) (1).jpg" alt="Product 1">
+                    <div class="discount-label">Best Seller</div>
+                    <div class="product-name">A Perfect Pair</div>
+                    <!-- <button class="add-to-cart-button">Add to Cart</button> -->
+
+                    <div class="new">
+                        <div class="price">Rs 1140 /-</div>
+                        <div class="star-ratings">4.9★</div>
+
+                    </div>
+                    <div class="new">
+                        <div class="del">Earliest Delivery Today</div>
+                        <div class="rev">98 reviews</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="best-seller-container">
+            <div class="best-seller-heading">TESTIMONIALS</div>
+            <!-- <p>Send a Gift of Live Plants; Deliver Eco Friendly Gifts in India Today</p> -->
+            <!-- <div href="#" class="view-all-button">View All</div> -->
+        </div>
+        <!-- testimonial  -->
+        <div class="testimonial">
+
+            <div class="slider-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://media.licdn.com/dms/image/D4D03AQH715CBE2uoGg/profile-displayphoto-shrink_400_400/0/1685793217368?e=1701907200&v=beta&t=uYlS8utmMX-NXDvLT7pFmbPLn_ARxIv94Fj8-t5AiPE"
+                                        alt="" srcset="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Tiyasha</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                    dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
+                                    distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
+                                <button class="button">View more</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://media.licdn.com/dms/image/D4D03AQFIt6P7a40YCQ/profile-displayphoto-shrink_400_400/0/1696357668678?e=1701907200&v=beta&t=7t2E7_XTe5WULeWx98YwEwSyMNu_f-rOPxVyLZQurzU"
+                                        alt="" srcset="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Anubrata</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                    dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
+                                    distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
+                                <button class="button">View more</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://media.licdn.com/dms/image/D5603AQElx91UgGqDSQ/profile-displayphoto-shrink_400_400/0/1696421522673?e=1701907200&v=beta&t=G8tHUMuA7-amOlwIvYpxUSsQr75o9VuU6sUDfLJelKY"
+                                        alt="" srcset="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Sumit</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                    dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
+                                    distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
+                                <button class="button">View more</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://media.licdn.com/dms/image/D4D03AQH5qvGnrVhXqg/profile-displayphoto-shrink_400_400/0/1678728177213?e=1701907200&v=beta&t=R4cK63fihR1-QN2sc4vsjdOZTw0wxBMzb8mx_rvSfdg"
+                                        alt="" srcset="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Roshan</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                    dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
+                                    distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
+                                <button class="button">View more</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://media.licdn.com/dms/image/D4D03AQH4bZDQNQJC9Q/profile-displayphoto-shrink_400_400/0/1671964649007?e=1701907200&v=beta&t=haAy0OvGZEs7u4S_KbaVT2mt7EUeg_U-NbqoEvzqS_s"
+                                        alt="" srcset="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Saumya</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                    dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
+                                    distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
+                                <button class="button">View more</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://media.licdn.com/dms/image/D4D35AQHGG7_g2uAg5w/profile-framedphoto-shrink_400_400/0/1693581671175?e=1697198400&v=beta&t=vZqs4mEA_y44LQoqNvl-jXBLMj5831_5hsa0GjaaMQA"
+                                        alt="" srcset="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Ashirbad</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                    dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
+                                    distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
+                                <button class="button">View more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!-- about prettypetals  -->
+        <div class="ecommerce-content">
+
+            <h3> PrettyPetals.in — The #1 E-commerce Store for Flowers to India.</h3>
+            <p>
+                PrettyPetals.in website has been re-launched and now Sending Flower Bouquet to India Same Day with Free
+                Shipping is more quick and safe. The website is absolutely secured and you can
+                now choose to do Online Delivery of Flowers, Cakes and Gifts with Free Home Delivery of Presents on the
+                ordered date and even at Midnight all over the country.
+            </p>
+
+            <h3>Send Flowers to India — Free Delivery all over the country</h3>
+            <p>
+                Sending Flowers Online to India has never been easier. With the rise of online delivery services, you
+                can now send flowers for same day to India with just a few clicks. Whether it's a Birthday,
+                Anniversary, Valentine's Day, Women's Day or a Wedding, sending Exotic Flowers is the perfect way to
+                express your feelings.
+            </p>
+        </div>
+        <!-- safe payment width problem   -->
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="PRETTY PETALS/smartphone (1).png" alt="Image 1">
+                <div class="subtitle">100% Secure Payments</div>
+                <div class="para">All major Credit and Debit Card accepted</div>
+            </div>
+            <div class="image-item">
+                <img src="PRETTY PETALS/smart-city (1).png" alt="Image 2">
+                <div class="subtitle">500+ Cities</div>
+                <div class="para">We Deliver Product Safety</div>
+            </div>
+            <div class="image-item">
+                <img src="PRETTY PETALS/credit-card (2) 1.png" alt="Image 3">
+                <div class="subtitle">Same Day Delivery</div>
+                <div class="para">Delivery to 1000 cities</div>
+            </div>
+            <div class="image-item">
+                <img src="PRETTY PETALS/satisfaction.png" alt="Image 4">
+                <div class="subtitle">Satisfied Customer</div>
+                <div class="para">10,10,10000 customers across the world</div>
+            </div>
+        </div>
+
+
+        <!-- footer section starts  -->
+        <br>
+        
+    <div class="foo">
+        <div class="foo-content">
+            <img src="PRETTY PETALS/logomain2.webp" alt="" srcset="">
+            <br>
+            <br>
+            
+            <input type="text" placeholder="Enter Your Email Address">
+            <br>
+            <label for="">
+                <input type="checkbox" name="" id="">Stay up to date on the latest from Prettypetals
+            </label>
+
+
+            <div class="icons">
+                
+                <a href=""><i class="fa-brands fa-square-facebook fa-beat-fade" style="color: #3a67ee;"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter fa-bounce" style="color: #639cfd;"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram fa-flip" style="color: #ec2284;"></i></a>
+                <a href=""><i class="fa-brands fa-youtube fa-beat" style="color: #ff0000;"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest fa-spin" style="color: #840b0b;"></i></a>
+            
+            </div>
+        </div>
+        <div class="foo-content">
+            <h4>CATEGORIES</h4>
+            <li><a href=""> Combo Gifts</a></li>
+            <li><a href=""> Fresh Fruits</a></li>
+            <li><a href=""> Cakes</a></li>
+            <li><a href=""> Flowers</a></li>
+            <li><a href=""> Dery Fruits</a></li>
+        </div>
+        <div class="foo-content">
+            <h4>MOST IMPORTANT CITY</h4>
+            <li><a href=""> Flowers Delivery Delhi</a></li>
+            <li><a href="">  Flowers Delivery Mumbai</a></li>
+            <li><a href="">  Flowers Delivery Pune</a></li>
+            <li><a href="">  Flowers Delivery Jaipur</a></li>
+        </div>
+        <div class="foo-content">
+            <h4>HELP DESK</h4>
+            <li><a href=""> About Us</a></li>
+            <li><a href=""> Suggestions</a></li>
+            <li><a href=""> Refund Policy</a></li>
+            <li><a href=""> Discount</a></li>
+            <li><a href=""> Payment</a></li>
+            <li><a href=""> Sitemap</a></li>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <!-- last footer  -->
+    <div class="last">
+        <div class="footer-links">
+            <a href="#">Occasions Calendar</a>
+            <a href="#">Delivery Info</a>
+            <a href="#">Terms</a>
+            <a href="#">Disclaimer</a>
+            <a href="#">Site Map</a>
+        </div>
+        <div class="cop">
+            <!-- <img src="copyright.png" alt="Copyright"> -->
+            <!-- <i class="fa-regular fa-copyright"></i> -->
+            <p>Copyright &copy;2023 , PrettyPetals, All Rights Reserved</p>
+        </div>
+    </di>
+
+
+
+</body>
+<script src="unpkg.com_swiper@8.0.0_swiper-bundle.min.js"></script>
+<script src="new.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/swiper@10.3.1/swiper-bundle.min.js
+"></script>
+
+</html>

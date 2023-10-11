@@ -1,0 +1,901 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    /* position: absolute; */
+    width: 100%;
+    height: 400px;
+    background-image: url('PRETTY PETALS/Banners/index-banner-full.webp'); /* Replace 'your-image.jpg' with the path to your background image */
+    /* background-size:auto; */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* max-width: 1222px; */
+    padding: 8px;
+    border-radius: 10px;
+}
+
+@media (min-width:480px) and (max-width:1200px) {
+    .container{
+        /* width:105%; */
+        height:14rem;
+    }
+}
+@media screen and (max-width: 768px){
+.container {
+        width: 105%;
+        height:10rem;
+        /* display: block; */
+}
+/* .dropdowntopheader {
+    display: block;
+    margin-right:5px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+} */
+}
+@media (min-width:320px) and (max-width:480px) {
+    .container{
+        width:105%;
+        height:6rem;
+    }
+}
+
+
+   
+.container h1,h3{
+    color:red;
+    text-align: center;
+}
+.shop-button {
+    background-color: #da0909; /* Change this to your desired button background color */
+    color: #fff; /* Change this to your desired button text color */
+    padding: 15px 30px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: #0056b3; /* Change this to the hover background color */
+}
+
+
+.image-row {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    margin: 18px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    /* Align images vertically in the middle */
+    /* margin: 10px 22px 10px 20px; */
+}
+
+.image-row  .image {
+    /* width: calc(25% - 10px); */
+    max-width: 100%; /* Each image takes up 20% of the container width */
+/* Adjust the maximum width of each image as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* margin-bottom: 20px; */
+}
+
+.wrapper{
+    min-height: 450px;
+    
+    display: flex;
+    overflow-x: auto;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    gap: 20px;
+    scroll-behavior: smooth;
+
+    /* overflow-x: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; */
+
+}
+.wrapper::-webkit-scrollbar {
+    width: 0;
+    /* visibility: hidden; */
+    /* display: */
+}
+.wrapper .product-item{
+    scroll-snap-align: start;
+    min-width: 350px;
+    height: 440px;
+    width:360px;
+    /* line-height: 189px; */
+    /* text-align: center; */
+    /* background-color: #ddd; */
+    /* margin-top: 10px; */
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 30px ;
+    flex-direction: column;
+    background-color: #fff;
+    /* cursor: none; */
+}
+.product-image {
+    /* display: flex;
+    justify-content: center; */
+    /* max-width: 100%; */
+    height: 300px;
+    width:100%;
+    /* border-radius: 10px; */
+}
+/* .product-image img{
+    width: 200px;
+    height: 200px;
+} */
+.product-name{
+    width: 100%;
+    /* margin-right: 10px; */
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* .pre-btn,.nxt-btn{
+    border: none;
+    width: 10vw;
+    height:100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #FFF 100%);
+    cursor: pointer;
+    z-index:8;
+}
+.pre-btn{
+    left: 0;
+    transform:rotate(180deg);
+}
+.nxt-btn{
+    right: 0;
+}
+.pre-btn img,
+.nxt-btn img{
+    opacity: 0.2;
+}
+.pre-btn:hover img,
+.nxt-btn:hover img{
+    opacity: 1;
+} */
+
+.new{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.discount-label {
+    background-color: #0b8311;
+    color: #fff;
+    padding: 3px 10px;
+    position: relative;
+    text-align: center;
+    width: 60px;
+    font-size: 12px;
+    /* border-radius: 14px; */
+    top: -300px;
+    right: 130px;
+}
+.price {
+    margin-top: 10px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+
+.star-ratings {
+    margin-top: 10px;
+    margin-right: 22px;
+    background-color: #0b8311;
+    color: #fff;
+    width: 45px; /* Change the star color as needed */
+    text-align: center;
+}
+.del{
+    margin-top: 10px;
+    margin-left: 22px;
+    color: #da0909;
+}
+.rev{
+    margin-top: 10px;
+    margin-right: 22px;
+    font-size: 10px;
+}
+
+.best-seller-container {
+    margin-top: 40px;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* Change the background color as needed */
+    /* padding: 10px 10px; */
+    position: relative;
+    flex-direction: column;
+}
+
+.best-seller-heading {
+    margin-bottom: 10px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #4e016a; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.view-all-button {
+    background-color: #480d90; /* Red button color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underlines from the button */
+    position: absolute;
+    right: 0;
+    margin-right: 42px;
+}
+@media (max-width: 490px) {
+    .best-seller-container a {
+        margin-right: -25px;
+    }
+}
+@media (max-width: 490px) {
+    .view-all-button {
+        position: relative;
+        margin-right: -8px;
+    }
+}
+
+.second-container{
+    background-image: url("PRETTY PETALS/Banners/SEND\ FLOWERS\ TO\ INDIA.jpg");
+}
+
+/* circle container */
+.circle-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.circle-container p{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* Style for individual circle items */
+.circle-item {
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 50%; /* Creates a circle */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Style for the circle images */
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect to make images pop out */
+.circle-item:hover {
+    transform: scale(1.1);
+}
+:root{
+    --heart:"M130.5 43.426C108.87 -9.43917 0 -1.58625 0 78.3627C0 118.195 33.2775 171.198 130.5 225.208C227.722 171.198 261 118.195 261 78.3627C261 -1.12604 152.25 -9.75251 130.5 43.426Z";
+}
+
+.heart-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    width: 100%;
+    /* height: 300px; */
+    margin-bottom: 30px;
+}
+.heart-item{
+    width: 270px;
+    height: 230px;
+    clip-path: path(var(--heart));
+}
+.heart-image{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+.heart-item:hover {
+    transform: scale(1.1);
+}
+.heart-container p{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.city{
+    background-image: url("PRETTY PETALS/Banners/FLORAL\ GIFTS\ BY\ CITIES.jpg");
+    /* height:70vh; */
+}
+.birthday{
+    /* background-image: url("PRETTY PETALS/FLOWERS\ &\ CAKES.jpg"); */
+}
+.wea{
+    background-image: url("PRETTY PETALS/Banners/Frame\ 196.jpg");
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    height: 40rem;
+    background-size: cover;
+}
+.wea .best-seller-heading{
+    color: #500383;
+}
+.left-right-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+@media screen and(max-width:480px) {
+    .left-right-container img{
+        width: 220px;
+    }
+}
+.gejano-container h3{
+    color: rgb(71, 8, 122);
+    font-size:  20px;
+}
+.gejano-container .head{
+    display: flex;
+}
+.gejano-container p{
+    line-height: 30px;
+    font-size: 18px;
+}
+.gejano-container{
+    width: 40%;
+    float: right;
+    margin-top: 44px;
+}
+@media (max-width:660px){
+    .gejano-container{
+        width: 100%;
+    }
+}
+
+/* occasions  */
+.image-row-occasion {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    margin: 18px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    /* Align images vertically in the middle */
+    /* margin: 10px 22px 10px 20px; */
+}
+
+.image-row-occasion  .image {
+    /* width: calc(25% - 10px); */
+    max-width: 100%; /* Each image takes up 20% of the container width */
+/* Adjust the maximum width of each image as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* margin-bottom: 20px; */
+}
+
+
+/* occasions */
+.square-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.square-container p{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* Style for individual circle items */
+.square-item {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 50%; /* Creates a circle */
+    /* overflow: hidden; */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+
+.ss{
+    text-align: center;
+    overflow: hidden;
+}
+.square-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+/* Hover effect to make images pop out */
+.square-item:hover {
+    transform: scale(1.1);
+}
+
+.square-button button{
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #7700b9;
+    color: white;
+    cursor: pointer;
+}
+
+.occasions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("PRETTY PETALS/Banners/POPULAR\ OCCASIONS.jpg");
+}
+.plants{
+    /* cursor: none; */
+    background-image: url("PRETTY PETALS/Banners/PLANTS.jpg");
+}
+
+/* testimonial section */
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff8f8;
+}
+.slider-container{
+    max-width: 100%;
+    width: 100%;
+    /* background-color: gray; */
+    padding: 40px;
+}
+.slide-content{
+    overflow: hidden;
+    margin: 0 40px;
+}
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color:#c59bff;
+}
+.overlay{
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #330353;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color:#330353;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #c59bff;
+}
+.card-image{
+    position:relative;
+    border-radius: 50%;
+    height:110px;
+    width:110px;
+    background: #ffffff;
+
+    padding: 7px;
+}
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px 14px;
+}
+.image-content{
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+}
+
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 52%;
+    border: 4px solid #330353;
+    margin:-4px;
+}
+
+
+.name{
+    font-size :20px;
+    font-weight: 500;
+    color:#282727;
+}
+.description{
+    font-size: 14px;
+    color:#222222;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    color:#fff;
+    padding: 8px 16px;
+    background-color:#0056b3;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.button:hover{
+    background: #265DF2;
+}
+
+.swiper-navBtn{
+    color: #6e93f7;
+    transition: color 0.3s ease-in-out;
+}
+.swiper-navBtn:hover{
+    color: #070f7e;
+    /* transition: color 0.3s ease-in-out; */
+}
+.swiper-navBtn::before,.swiper-navBtn::after{
+    font-size: 40px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    background-color:  #6e93f7;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color:  #0c3bbe;
+    /* opacity: 1; */
+}
+
+@media  screen and (max-width:768px){
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}
+
+/* .lat-row{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.four-images{
+    background-color:#330353;
+} */
+
+
+.image-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color:#370175;
+    height: 15rem;
+}
+@media (max-width:760px) {
+    image-item {
+        gap: 5px;
+    }
+}
+@media (max-width:480px) {
+    image-item {
+        gap: 2px;
+    }
+}
+
+/* Style for each image item */
+.image-grid .image-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 50px;
+}
+
+@media (max-width:760px) {
+    .image-grid .image-item {
+        margin: 20px;
+    }
+}
+@media (max-width:480px) {
+    .image-grid .image-item {
+        margin: 5px;
+    }
+}
+
+/* Style for the image itself */
+.image-grid .image-item img {
+    /* max-width: 100%; */
+    /* height: auto; */
+    display: block;
+    height: 70px;
+}
+@media (max-width:480px) {
+    .image-grid{
+        height: 10rem;
+    }
+    .image-grid .image-item img{
+        height: 40px;
+    }
+    .image-item .subtitle{
+        font-size: 11px;
+        padding: 4px;
+        margin-top: 50px;
+    }
+    .image-item .para{
+        font-size: 8px;
+        padding: 4px;
+        margin-top: 90px;
+    }
+}
+
+/* Style for the subtitle */
+.subtitle {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    margin-top: 100px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size:  24px;
+}
+.para {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    margin-top: 140px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size:  12px;
+}
+
+
+/* about page  */
+.ecommerce-content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: left;
+}
+.ecommerce-content h3{
+    color: #1c1414;
+    text-align: left;
+    font-size: 25px;
+}
+/* Style for the paragraph text */
+.ecommerce-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* FOOTER  */
+/* .footer{
+    width:100%;
+} */
+.foo img{
+    width:220px;
+    height:80px;
+}
+
+.foo-content li{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.foo{
+    padding: 20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,auto));
+    gap: 3.5rem;
+    background-color:#ffffff;
+    position: absolute;
+    
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+}
+.foo input{
+    font-size: 20px;
+    /* margin: 0px; */
+    margin-bottom: 56px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.foo-content{
+    margin-bottom: 1.5rem;
+    font-size:  15px;
+}
+.foo-content li a{
+    display:block;
+    color:#1c1414;
+    font-size: 14px;
+    font-weight: 300;
+    transition: all .40s ease;
+}
+.foo-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: #231e1e;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.foo-content p{
+    color:#231e1e;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.icons a{
+    display:inline-block;
+    font-size: 30px;
+    /* color:rgb(155, 16, 16); */
+    margin-right: 10px;
+    transition:all .40s ease;
+}
+.icons a:hover{
+    color: #da0909;
+    transform:translateY(-5px);
+}
+@media (max-width:1690px){
+    section{
+        padding: 20px;
+    }
+}
+@media (max-width:1120px){
+    .foo{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(300px,auto));
+        gap: 2rem;
+    }
+}
+@media (max-width:700px){
+    .foo{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(168px,auto));
+        gap: 2.5rem;
+    }
+}
+@media (max-width:460px){
+    .foo{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(142px,auto));
+        gap: 1.3rem;
+    }
+    .foo-content{
+        /* margin-left: 45px; */
+    }
+}
+@media (max-width:400px){
+    .foo{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(103px,auto));
+        gap: 1.3rem;
+    }
+    
+}
+
+/* last footer css  */
+.last {
+    background-color: #ddddddf8;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+@media (max-width:1120px){
+    .last{
+        margin-top: 265px;
+    }
+}
+@media (max-width:580px){
+    .last{
+        margin-top: 290px;
+    }
+}
+/* Style the footer links */
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #050505;
+    margin: 0 10px;
+    font-size: 13px;
+}
+.cop{
+    font-size: 14px;
+}
+
