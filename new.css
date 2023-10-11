@@ -209,7 +209,7 @@ height: auto;
 
 
 .header-search-area {
-  width: 50%;
+  width: 60%;
   padding-right: 0;
   padding-left: 20%;
   margin: 0 auto;
@@ -1800,7 +1800,7 @@ margin:18px 0 15px 0;
 .navbar {
     /*overflow: hidden;*/
     background-color:#fff;
-    width:100%;
+    width:105%;
     float:left;
     margin: 0;
     display:block;
@@ -2178,7 +2178,7 @@ margin:18px 0 15px 0;
   display:none; 
   background:#c6a6d7; 
   position: absolute;
-  margin-top: 150px;
+  margin-top: 170px;
   z-index: 9999;
   }
   .navbar a {
