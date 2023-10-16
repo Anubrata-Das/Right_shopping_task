@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- <link href="
 https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
@@ -33,16 +34,26 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                     <a>Ganesh Chaturthi</a>
                 </div>
                 <div class="right">
+                    <!-- <span><img src="PRETTY PETALS/credit-card (2) 1.png" ></span> -->
+                    <img class="same" src="PRETTY PETALS/credit-card (2) 1.png" width="18" height="18">
                     <span>Same day</span>
+                    <span class="currency" id="currency">currency</span> 
+                    <img src="icons8-sort-down-30.png" class="headdropicon-cur" alt="Services"
+                        width="10" height="8">
+                    <div class="dropdown-content" id="dropdown-content">
+
+                        <a href="#">₹ INR</a>
+                        <a href="#">$ USD</a>
+                    </div>
                     <!-- <span>Same day</span> -->
                 </div>
             </div>
 
             <div class="header">
-                <div class="dropdowntopheader">
-                    <span>Services <img src="siteimages/menu-downArrow2.webp" class="headdropicon" alt="Services"
+                <div class="dropdowntopheader" id="dropdowntopheader">
+                    <span>Services <img src="PRETTY PETALS/down-arrow.png" class="headdropicon" alt="Services"
                             width="9" height="5"></span>
-                    <div class="dropdown-contenttopheader">
+                    <div class="dropdown-contenttopheader" id="dropdown-contenttopheader">
                         <a href="" title="Login">
                             <p>Login</p>
                         </a>
@@ -147,8 +158,8 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
 
                     <div class="headermiddletext">
                         <button class="mobile-menu-container2" onclick="toggleText14()"><img
-                                src="https://www.prettypetals.in/siteimages/menu-open-icon2.webp" alt="Menu" width="30"
-                                height="30"></button>
+                                src="PRETTY PETALS/menu-button-of-three-horizontal-lines.png" alt="Menu" width="20"
+                                height="20"></button>
 
                         <div class="searchheaderrow">
                             <div class="header-search-area">
@@ -232,9 +243,9 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
     <div class="navbar" id="Myid14">
         <a href="" title="Home" class="mobile-menu-colour" style="font-weight:600;">Home</a>
 
-        <div class="dropdown2 fl">
-            <button class="dropbtn2 no-link" style="text-transform: none;cursor:pointer;font-weight:600;">Flowers
-                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+        <div class="dropdown2 fl" id="dropdown2">
+            <button class="dropbtn2 no-link" >Flowers
+                <img src="PRETTY PETALS/down-arrow.png " alt="Arrow" class="headdropicon"
                     width="9px" height="5px">
             </button>
             <div class="dropdown-content5" id="Myid10">
@@ -325,10 +336,10 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
         </div>
 
 
-        <div class="dropdown2 mobile-menu-colour gifts">
-            <button class="dropbtn2 no-link" style="text-transform: none;cursor:pointer;font-weight:600;"
+        <div class="dropdown2 mobile-menu-colour gifts" id="dropdown3">
+            <button class="dropbtn2 no-link" id="dropbtn2" style="text-transform: none;cursor:pointer;font-weight:600;"
                 title="Gifts">Gifts
-                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+                <img src="PRETTY PETALS/down-arrow.png" alt="Arrow" class="headdropicon"
                     width="9px" height="5px">
             </button>
             <div class="dropdown-content22" id="Myid11">
@@ -373,9 +384,9 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
             </div>
         </div>
 
-        <div class="dropdown2">
+        <div class="dropdown2" id="dropdown4">
             <button class="dropbtn2 no-link" style="text-transform: none;font-weight:600;">Occasions
-                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+                <img src="PRETTY PETALS/down-arrow.png" alt="Arrow" class="headdropicon"
                     width="9px" height="5px">
             </button>
             <div class="dropdown-content44" id="Myid12">
@@ -429,14 +440,14 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
         </div>
 
         <a class="mobile-menu-colour" style="font-weight:600;">Same Day</a>
-        <a class="mobile-menu-colour" style="font-weight:600;">Same Day</a>
-        <a class="mobile-menu-colour" style="font-weight:600;">Same Day</a>
+        <a class="mobile-menu-colour" style="font-weight:600;">Get Well Soon</a>
+        <a class="mobile-menu-colour" style="font-weight:600;">Ganesh Chaturthi</a>
 
 
 
-        <div class="dropdown2 no-link">
+        <div class="dropdown2 no-link" id="dropdown5">
             <button class="dropbtn2" style="text-transform: none;font-weight:600;">Locations
-                <img src="https://www.prettypetals.in/images/menu-downArrow2.webp" alt="Arrow" class="headdropicon"
+                <img src="PRETTY PETALS/down-arrow.png" alt="Arrow" class="headdropicon"
                     width="9px" height="5px">
             </button>
             <div class="dropdown-content4" id="Myid13">
@@ -488,7 +499,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
         <div href="#" class="view-all-button">View All</div>
     </div>
     <!-- scrollable divs -->
-    <div class="wrapper">
+    <div  class="owl-carousel owl-theme" >
 
         <div class="product-item">
             <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
@@ -635,13 +646,14 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
         </div>
     </div>
 
+
     <div class="second-container">
         <div class="best-seller-container">
             <div class="best-seller-heading">SEND FLOWERS TO INDIA</div>
             <p>3 Hours Delivery & Free Shipping in India . Expert Florists at 500 cities India-wide</p>
             <div href="#" class="view-all-button">View All</div>
         </div>
-        <div class="wrapper">
+        <div  class="owl-carousel owl-theme" >
 
             <div class="product-item">
                 <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
@@ -789,6 +801,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
         </div>
     </div>
 
+
     <div class="best-seller-container">
         <div class="best-seller-heading">COMBOS</div>
         <p>138789 Value for Money Gifts for your beloved ; Free Delivery in India</p>
@@ -801,33 +814,43 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
 
         <div class="lll">
             <div class="circle-item">
-                <img src="PRETTY PETALS/image 104.jpg" alt="Image 1" class="circle-image">
+                <div class="white">
+                    <img src="PRETTY PETALS/image 104.jpg" alt="Image 1" class="circle-image">
+                </div>
             </div>
             <p>Flowers & Cakes</p>
         </div>
 
         <div class="lll">
             <div class="circle-item">
+                <div class="white">
                 <img src="PRETTY PETALS/image 68 (2).png" alt="Image 2" class="circle-image">
+            </div>
             </div>
             <p>Flowers & Chocolates</p>
         </div>
 
         <div class="lll">
             <div class="circle-item">
+                <div class="white">
                 <img src="PRETTY PETALS/image 25.png" alt="Image 3" class="circle-image">
+            </div>
             </div>
             <p>Flowers & Gifts</p>
         </div>
         <div class="lll">
             <div class="circle-item">
+                <div class="white">
                 <img src="PRETTY PETALS/image 100.jpg" alt="Image 4" class="circle-image">
+            </div>
             </div>
             <p>Flowers & Teddy</h>
         </div>
         <div class="lll">
             <div class="circle-item">
+                <div class="white">
                 <img src="PRETTY PETALS/image 83 (2).jpg" alt="Image 5" class="circle-image">
+            </div>
             </div>
             <p>Flowers & Sweets</p>
         </div>
@@ -849,31 +872,37 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
         <div class="heart-container">
             <div class="lll">
                 <div class="heart-item">
-                    <img src="PRETTY PETALS/image 23.png" alt="" srcset="" class="circle-image">
+                    <img src="PRETTY PETALS/image 23.png" alt="" srcset="" class="heart-image">
                 </div>
                 <p>Chennai</p>
             </div>
             <div class="lll">
                 <div class="heart-item">
-                    <img src="PRETTY PETALS/image 24.png" alt="" srcset="" class="circle-image">
+                    <img src="PRETTY PETALS/image 24.png" alt="" srcset="" class="heart-image">
                 </div>
                 <p>Hyderabad</p>
             </div>
             <div class="lll">
                 <div class="heart-item">
-                    <img src="PRETTY PETALS/image 25.png" alt="" srcset="" class="circle-image">
+                    <img src="PRETTY PETALS/image 25.png" alt="" srcset="" class="heart-image">
                 </div>
                 <p>Delhi</p>
             </div>
             <div class="lll">
                 <div class="heart-item">
-                    <img src="PRETTY PETALS/image 26.png" alt="" srcset="" class="circle-image">
+                    <img src="PRETTY PETALS/image 26.png" alt="" srcset="" class="heart-image">
                 </div>
                 <p>Mumbai</p>
             </div>
             <div class="lll">
                 <div class="heart-item">
-                    <img src="PRETTY PETALS/image 27.png" alt="" srcset="" class="circle-image">
+                    <img src="PRETTY PETALS/image 28.png" alt="" srcset="" class="heart-image">
+                </div>
+                <p>Bangalore</p>
+            </div>
+            <div class="lll">
+                <div class="heart-item">
+                    <img src="PRETTY PETALS/image 27.png" alt="" srcset="" class="heart-image">
                 </div>
                 <p>Kolkata</p>
             </div>
@@ -894,7 +923,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
             <div href="#" class="view-all-button">View All</div>
         </div>
 
-        <div class="wrapper">
+        <div  class="owl-carousel owl-theme" >
 
             <div class="product-item">
                 <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
@@ -1045,45 +1074,52 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
 
         <!-- relation -->
         <div class="relation">
-            <div class="best-seller-container">
+            <div class="best-seller-container rc">
                 <div class="best-seller-heading">IMPORTANT RELATIONS</div>
                 <p>Top Floral Gift Ideas for all; Lowest Price in India</p>
                 <!-- <div href="#" class="view-all-button">View All</div> -->
             </div>
-
+            <br>
+            <br>
             <div class="circle-container">
 
                 <div class="lll">
-                    <div class="circle-item">
+                    <div class="relation-image">
                         <img src="PRETTY PETALS/image 57 (1).png" alt="Image 1" class="circle-image">
                     </div>
                     <p>HUSBAND</p>
                 </div>
 
                 <div class="lll">
-                    <div class="circle-item">
+                    <div class="relation-image">
                         <img src="PRETTY PETALS/image 57.png" alt="Image 2" class="circle-image">
                     </div>
                     <p>WIFE</p>
                 </div>
 
                 <div class="lll">
-                    <div class="circle-item">
+                    <div class="relation-image">
                         <img src="PRETTY PETALS/image 54 (2).png" alt="Image 3" class="circle-image">
                     </div>
                     <p>HIM</p>
                 </div>
                 <div class="lll">
-                    <div class="circle-item">
-                        <img src="PRETTY PETALS/image 100.jpg" alt="Image 4" class="circle-image">
+                    <div class="relation-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjC8qjV3wHm56aUoG2_eTLPN_e0OA_b9zsbg&usqp=CAU" alt="Image 4" class="circle-image">
                     </div>
                     <p>HER</h>
                 </div>
                 <div class="lll">
-                    <div class="circle-item">
-                        <img src="PRETTY PETALS/image 83 (2).jpg" alt="Image 5" class="circle-image">
+                    <div class="relation-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQar7K8SdAssFIUKIMvrttXivBksBw_1rOn_w&usqp=CAU" alt="Image 5" class="circle-image">
                     </div>
                     <p>PARENTS</p>
+                </div>
+                <div class="lll">
+                    <div class="relation-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW3V_AYmNTvBubeHkE3zeyURjgzK_4BfkChA&usqp=CAU" alt="Image 5" class="circle-image">
+                    </div>
+                    <p>KIDS</p>
                 </div>
             </div>
 
@@ -1117,7 +1153,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                 <div href="#" class="view-all-button">View All</div>
             </div>
 
-            <div class="wrapper">
+            <div  class="owl-carousel owl-theme" >
                 <div class="product-item">
                     <img class="product-image" src="PRETTY PETALS/image 52.png" alt="Product 1">
                     <div class="discount-label">Best Seller</div>
@@ -1278,6 +1314,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                 <!-- <div href="#" class="view-all-button">View All</div> -->
             </div>
             <br>
+            <br>
             <div class="square-container">
                 <div class="ss">
                     <div class="square-item">
@@ -1316,7 +1353,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                 <div href="#" class="view-all-button">View All</div>
             </div>
 
-            <div class="wrapper">
+            <div  class="owl-carousel owl-theme" >
 
                 <div class="product-item">
                     <img class="product-image" src="PRETTY PETALS/image 68 (2).png" alt="Product 1">
@@ -1475,7 +1512,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
             <!-- <button class="pre-btn"><img src="PRETTY PETALS/left-arrow-2560.png" width="20" height="20" alt="" srcset=""></button>
                 <button class="nxt-btn"><img src="PRETTY PETALS/arrow-icon-1177.png"  width="20" height="20" alt="" srcset=""></button> -->
 
-            <div class="wrapper">
+                <div  class="owl-carousel owl-theme" >
                 <div class="product-item">
                     <img class="product-image" src="PRETTY PETALS/image 84 (1) (1).jpg" alt="Product 1">
                     <div class="discount-label">Best Seller</div>
@@ -1622,7 +1659,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
             </div>
         </div>
 
-        <div class="best-seller-container">
+        <div class="best-seller-container" style="margin-bottom: 1px;">
             <div class="best-seller-heading">TESTIMONIALS</div>
             <!-- <p>Send a Gift of Live Plants; Deliver Eco Friendly Gifts in India Today</p> -->
             <!-- <div href="#" class="view-all-button">View All</div> -->
@@ -1647,7 +1684,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                                     dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
                                     distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
-                                <button class="button">View more</button>
+                                <!-- <button class="button">View more</button> -->
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -1663,7 +1700,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                                     dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
                                     distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
-                                <button class="button">View more</button>
+                                <!-- <button class="button">View more</button> -->
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -1679,7 +1716,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                                     dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
                                     distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
-                                <button class="button">View more</button>
+                                <!-- <button class="button">View more</button> -->
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -1695,7 +1732,7 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                                     dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
                                     distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
-                                <button class="button">View more</button>
+                                <!-- <button class="button">View more</button> -->
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -1711,9 +1748,10 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                                     dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
                                     distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
-                                <button class="button">View more</button>
+                                <!-- <button class="button">View more</button> -->
                             </div>
                         </div>
+
                         <div class="card swiper-slide">
                             <div class="image-content">
                                 <span class="overlay"></span>
@@ -1727,9 +1765,10 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
                                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
                                     dolor molestiae porro quas qui, impedit quidem inventore nihil quia, eaque
                                     distinctio illo explicabo dolorum eveniet odio, in perspiciatis sequi obcaecati.</p>
-                                <button class="button">View more</button>
+                                <!-- <button class="button">View more</button> -->
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="swiper-button-next swiper-navBtn"></div>
@@ -1738,6 +1777,14 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
             </div>
         </div>
 
+
+        <br>
+        <br>
+        <!-- Testing slider with wrapper with owl caraousel  -->
+
+
+            
+               
         <!-- about prettypetals  -->
         <div class="ecommerce-content">
 
@@ -1858,11 +1905,11 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
     <!-- last footer  -->
     <div class="last">
         <div class="footer-links">
-            <a href="#">Occasions Calendar</a>
+            <a href="#">Occasions</a>
             <a href="#">Delivery Info</a>
             <a href="#">Terms</a>
             <a href="#">Disclaimer</a>
-            <a href="#">Site Map</a>
+            <a href="#" style="border: none;">Site Map</a>
         </div>
         <div class="cop">
             <!-- <img src="copyright.png" alt="Copyright"> -->
@@ -1874,6 +1921,8 @@ https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css
 
 
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="unpkg.com_swiper@8.0.0_swiper-bundle.min.js"></script>
 <script src="new.js"></script>
 <script src="
