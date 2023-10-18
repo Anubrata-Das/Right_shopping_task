@@ -67,7 +67,8 @@
 }
 @media (max-width:600px){
     .dropdown-content{
-        margin-top: 84px;
+        margin-top: 95px;
+        margin-left: -100px;
     }
     .currency{
         /* margin-top: 6px; */
@@ -93,6 +94,9 @@
     background-color: #0056b3; /* Change this to the hover background color */
 }
 
+.dropdown-contenttopheader a{
+    text-decoration: none;
+}
 
 .image-row {
     display: grid;
@@ -507,6 +511,11 @@
     /* right: 0;
     margin-right: 42px; */
 }
+.read-more-button:hover{
+    background-color: #fff;
+    color: #330353;
+    border: 1px solid #370175;
+}
 
 
 /* occasions  */
@@ -653,8 +662,8 @@
     .square-button button{
         width: 89%;
         border-radius: 4px;
-        height: 20px;
-        font-size: 8px;
+        height: 25px;
+        font-size: 10px;
     }
 }
 .occasions{
@@ -1190,8 +1199,9 @@
         /* margin-left: -50px; */
     }
     .view-all-button{
-        font-size: 8px;
+        font-size: 10px;
         margin-top: -1px;
+        margin-left: 105px;
     }
     .heart-container{
         margin-bottom: 1px;
@@ -1386,6 +1396,12 @@
     }
     .icons a{
         font-size: 18px;
+    }
+    .city-button{
+        margin-left: 106px;
+    }
+    .per-button{
+        margin-left: 70px;
     }
 }
 @media (max-width:390px){
