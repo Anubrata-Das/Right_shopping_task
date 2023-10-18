@@ -1079,9 +1079,9 @@
         margin-top: 265px;
     }
 }
-@media (max-width:780px){
+@media (max-width:480px){
     .last{
-        margin-top: 120px;
+        margin-top: 100px;
     }
 }
 /* Style the footer links */
