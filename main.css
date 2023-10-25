@@ -62,9 +62,13 @@
     margin: -4px;
     margin-right: 2px;
 }
+
 .currency,headdropicon-cur{
     cursor: pointer;
 }
+
+
+
 @media (max-width:600px){
     .dropdown-content{
         margin-top: 95px;

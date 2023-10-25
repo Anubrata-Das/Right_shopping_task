@@ -147,7 +147,6 @@ const toggleButton = document.getElementById("dropdown2");
 const hiddenDiv = document.getElementById("Myid10");
 
 toggleButton.addEventListener("click", () => {
-  // toggleButton.style.backgroundColor="red";
   if (hiddenDiv.style.display === "none") {
       hiddenDiv.style.display = "block";
   } else {
@@ -156,7 +155,6 @@ toggleButton.addEventListener("click", () => {
 });
 
 toggleButton.addEventListener("mouseover", () => {
-  // toggleButton.style.backgroundColor="red";
   hiddenDiv.style.display = "block";
   toggleButton.addEventListener("mouseout", () => {
     hiddenDiv.style.display = "none";
@@ -253,8 +251,6 @@ toggleButton3.addEventListener("click", () => {
 const toggleButton4 = document.getElementById("dropdowntopheader");
 const hiddenDiv4 = document.getElementById("dropdown-contenttopheader")
 
-
-
 toggleButton4.addEventListener("click", () => {
     if (hiddenDiv4.style.display === "none") {
         hiddenDiv4.style.display = "block";
@@ -264,16 +260,31 @@ toggleButton4.addEventListener("click", () => {
 });
 
 
-
+//currency
 const toggleButton5 = document.getElementById("currency");
 const hiddenDiv5 = document.getElementById("dropdown-content")
 
 toggleButton5.addEventListener("click", () => {
-    if (hiddenDiv5.style.display === "none") {
-        hiddenDiv5.style.display = "block";
-    } else {
-        hiddenDiv5.style.display = "none";
-    }
+  if (hiddenDiv5.style.display === "none") {
+      hiddenDiv5.style.display = "block";
+  } else {
+      hiddenDiv5.style.display = "none";
+  }
+});
+
+toggleButton5.addEventListener("mouseover", () => {
+  hiddenDiv5.style.display = "block";
+  // toggleButton5.addEventListener("mouseout", () => {
+  //   hiddenDiv5.style.display = "none";
+  // });
+});
+
+
+hiddenDiv5.addEventListener("mouseover", () => {
+  hiddenDiv5.style.display = "block";
+});
+hiddenDiv5.addEventListener("mouseout", () => {
+  hiddenDiv5.style.display = "none";
 });
 
 
